@@ -64,34 +64,31 @@
     </header>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="subject-info">
-                <div class="row">
-                    <div class="col-4">
-                        <div class="image-box1"></div>
-                        <h2>UX Design</h2>
-                        <p>Come and design with us and explore the different ways in which a site or business can express themselves.</p>
-                        <button type="button" class="btn btn-primary">Read More</button>
-                    </div>
-
-                    <div class="col-4">
-                        <div class="image-box2"></div>
-                        <h2>Development</h2>
-                        <p>Come and explore the world of Interactive Development with us! Here we will show you how the backend can be controlled...</p>
-                        <button type="button" class="btn btn-danger">Read More</button>
-                    </div>
-
-                    <div class="col-4">
-                        <div class="image-box3"></div>
-
-                        <h2>Product Design</h2>
-                        <p>Come and create new products and design new solutions to modern problems with us! We have great experiences to offer!</p>
-                        <button type="button" class="btn btn-success">Read More</button>
-                    </div>
-                </div>
-                
+        <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="../assets/subjects-01.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">UX Design</h5>
+                <p class="card-text">Come and design with us and explore the different ways in which a site or business can express themselves.</p>
+                <button type="button" class="btn btn-primary">Read More</button>
+              </div>
             </div>
-            
+            <div class="card">
+              <img class="card-img-top" src="../assets/subjects-03.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Development</h5>
+                <p class="card-text">Come and explore the world of Interactive Development with us! Here we will show you how the backend can be controlled...</p>
+                <button type="button" class="btn btn-danger">Read More</button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="../assets/subjects-02.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Product Design</h5>
+                <p class="card-text">Come and create new products and design new solutions to modern problems with us! We have great experiences to offer!</p>
+                <button type="button" class="btn btn-success">Read More</button>
+              </div>
+            </div>
         </div>
 
         <div class="row">
@@ -111,13 +108,19 @@
                             <option>Product Design</option>
                         </select>
 
-                        <input placeholder="Password">
-                        <input type="checkbox" checked autocomplete="off">
+                        <input type="text" class="form-control" placeholder="Password" id="password">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Send Me Spam Newsletters</label>
+                        </div>
+            
 
                         <button class="btn btn-primary" type="submit" onclick="addStudent()">Register Account</button>
+
                     </form>
                 </div>
             </div>
+
 
             <div class="col-6">
                 <div class="gallery">
@@ -152,6 +155,8 @@
 
                 </div>
             </div>
+
+            <div class="sign-up-space"></div>
             
         </div>
     </div>

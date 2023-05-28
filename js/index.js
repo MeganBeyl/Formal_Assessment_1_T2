@@ -4,12 +4,14 @@ addStudent = () => {
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
     let number = document.getElementById("number").value;
+    let password = document.getElementById("password").value;
     let subject = document.getElementById("subject").value;
 
-    if(){
+    if(exampleCheck1 == true){
         userName.push(name);
         userEmail.push(email);
         userNumber.push(number);
+        userPassword.push(password);
         userSubject.push(subject);
         alert("Welcome " + name + "! Thank you for your interest in " + subject + "! We will contact you via the email provided: " + email + ", or alternatively on the phone number: " + number);
     } else {
@@ -19,6 +21,7 @@ addStudent = () => {
     console.log(userName);
     console.log(userEmail);
     console.log(userNumber);
+    console.log(userPassword);
     console.log(userSubject);
 
     document.getElementById("signUpForm").reset();

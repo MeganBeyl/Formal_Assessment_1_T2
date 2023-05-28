@@ -52,10 +52,6 @@ nav{
     cursor:pointer;
 }
 
-.input-elm{
-
-}
-
 .search-bar{
     height:70px;
     float:right;
@@ -123,7 +119,7 @@ form{
 }
 
 select{
-    width:40%;
+    width:60%;
     height:30px;
     margin:10px;
     border-radius:20px;
@@ -152,7 +148,7 @@ option{
 
 .gallery{
     width:50%;
-    height:350px;
+    height:300px;
 }
 
 input{
@@ -166,7 +162,7 @@ input{
 }
 
 .col-4{
-    width:36%;
+    width:34%;
     height:400px;
     margin:2px;
     float:left;
@@ -190,7 +186,7 @@ input{
 
 .image-box1{
     width:100%;
-    height:200px;
+    height:250px;
     background-image: url("../assets/subjects-01.jpg");
     background-position: center;
     background-size: cover;
