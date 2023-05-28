@@ -99,12 +99,12 @@
             <div class="col-6">
                 <div class="form-sign-up">
                     <h1>Sign Up</h1>
-                    <form>
+                    <form id="signUpForm">
                         <p>If you would like to register for one of our courses, use the form below</p>
-                        <input placeholder="Name & Surname">
-                        <input placeholder="Enter Email">
-                        <input placeholder="Contact Number">
-                        <select>
+                        <input type="text" class="form-control" placeholder="Name & Surname" id="name">
+                        <input type="text" class="form-control" placeholder="Enter Email" id="email">
+                        <input type="text" class="form-control" placeholder="Contact Number" id="number">
+                        <select class="form-control" id="subject">
                             <p>Select A Subject</p>
                             <option>UX Design</option>
                             <option>Development</option>
@@ -114,7 +114,7 @@
                         <input placeholder="Password">
                         <input type="checkbox" checked autocomplete="off">
 
-                        <button class="btn btn-primary" type="submit">Register Account</button>
+                        <button class="btn btn-primary" type="submit" onclick="addStudent()">Register Account</button>
                     </form>
                 </div>
             </div>
